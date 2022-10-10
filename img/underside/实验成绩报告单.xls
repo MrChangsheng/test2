@@ -1,0 +1,43 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel"><meta http-equiv="Content-Type" content="text/html;charset=GB2312"><head><!--[if gte mso 9]><xml> <x:ExcelWorkbook>  <x:ExcelWorksheets>   <x:ExcelWorksheet>    <x:Name>File</x:Name>    <x:WorksheetOptions>      <x:Print>       <x:ValidPrinterInfo />      </x:Print>    </x:WorksheetOptions>   </x:ExcelWorksheet>  </x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table border="0">
+	<tr>
+		<th>步骤名称</th><th>所得经验值</th><th>所得金币</th><th>日志说明</th><th>操作日期</th>
+	</tr><tr>
+		<td align="center">支付通账户绑定</td><td align="center">100</td><td align="center">100</td><td align="center">[B2B实践]：支付通账户绑定成功</td><td align="center">2022-05-11 19:52:32</td>
+	</tr><tr>
+		<td align="center">用户注册邮箱验证</td><td align="center">100</td><td align="center">100</td><td align="center">[B2B实践]：编号为：441的用户完成注册邮箱验证！</td><td align="center">2022-05-11 19:41:39</td>
+	</tr><tr>
+		<td align="center">用户注册</td><td align="center">100</td><td align="center">100</td><td align="center">[B2B实践]：学生编号为441的实验者注册了B2B平台用户。</td><td align="center">2022-05-11 19:39:14</td>
+	</tr><tr>
+		<td align="center">支付通集成商户绑定</td><td align="center">100</td><td align="center">100</td><td align="center">[B2B实践]：学生编号为441的实验者绑定了支付通集成商户。</td><td align="center">2022-05-11 19:34:07</td>
+	</tr><tr>
+		<td align="center">服务商审核签约商户(商家服务)</td><td align="center">100</td><td align="center">100</td><td align="center">[支付通实践]：服务商审核签约协议编号为2845的商户。</td><td align="center">2022-05-11 19:32:59</td>
+	</tr><tr>
+		<td align="center">网站集成支付通服务申请</td><td align="center">100</td><td align="center">100</td><td align="center">[支付通实践]：用户编号为6947申请了网站集成支付通服务。</td><td align="center">2022-05-11 19:28:59</td>
+	</tr><tr>
+		<td align="center">给本账户充值</td><td align="center">100</td><td align="center">100</td><td align="center">[支付通实践]：用户编号：6947给本账户充值。</td><td align="center">2022-05-11 19:22:30</td>
+	</tr><tr>
+		<td align="center">账户激活</td><td align="center">100</td><td align="center">100</td><td align="center">[支付通实践]：用户：1840559396@qq.com成功激活支付通账户，完成注册</td><td align="center">2022-05-11 19:20:48</td>
+	</tr><tr>
+		<td align="center">支付通账户Email注册</td><td align="center">100</td><td align="center">100</td><td align="center">[支付通实践]：用户成功注册支付通账户,但未激活!</td><td align="center">2022-05-11 19:16:27</td>
+	</tr><tr>
+		<td align="center">支付通账户手机注册</td><td align="center">100</td><td align="center">100</td><td align="center">[支付通实践]：手机号为：15272109452的用户成功注册支付通</td><td align="center">2022-05-11 19:13:28</td>
+	</tr><tr>
+		<td align="center">服务商增加银行账户</td><td align="center">100</td><td align="center">100</td><td align="center">[支付通实践]：服务商新增了银行账号为6555854082030293的服务商账户信息。</td><td align="center">2022-05-11 19:08:53</td>
+	</tr><tr>
+		<td align="center">企业支付通道申请审批</td><td align="center">100</td><td align="center">100</td><td align="center">[网上银行]：企业付款通道申请审批通过</td><td align="center">2022-04-27 20:20:21</td>
+	</tr><tr>
+		<td align="center">企业支付通道申请</td><td align="center">100</td><td align="center">100</td><td align="center">[网上银行]：账号为：6555675676829711申请了企业付款通道</td><td align="center">2022-04-27 20:19:39</td>
+	</tr><tr>
+		<td align="center">企业账户存款</td><td align="center">100</td><td align="center">100</td><td align="center">[网上银行]：账户"6555681064382633"存款999999999999</td><td align="center">2022-04-27 20:12:45</td>
+	</tr><tr>
+		<td align="center">个人账户存款</td><td align="center">100</td><td align="center">100</td><td align="center">[网上银行]：账户"6555627756432633"存款999999999999</td><td align="center">2022-04-27 20:12:25</td>
+	</tr><tr>
+		<td align="center">企业注册账户申请审批</td><td align="center">100</td><td align="center">100</td><td align="center">[网上银行]：企业账户注册审批通过</td><td align="center">2022-04-27 20:11:58</td>
+	</tr><tr>
+		<td align="center">企业账户注册申请</td><td align="center">100</td><td align="center">100</td><td align="center">[网上银行]：名为：bml你是我的神有限公司的企业申请了企业账户。</td><td align="center">2022-04-27 20:09:52</td>
+	</tr><tr>
+		<td align="center">个人注册账户申请审批</td><td align="center">100</td><td align="center">100</td><td align="center">[网上银行]：白梦铃个人账户注册审批通过</td><td align="center">2022-04-27 20:05:59</td>
+	</tr><tr>
+		<td align="center">个人账户注册申请</td><td align="center">100</td><td align="center">100</td><td align="center">[网上银行]：白梦铃用户申请了个人账户，等待批准</td><td align="center">2022-04-27 20:05:36</td>
+	</tr>
+</table></body></html>

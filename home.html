@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <style>
+        .vanish {
+            position: fixed;
+            width: 100%;
+            animation: vanish 8s backwards;
+            opacity: 0;
+            z-index:1;
+        }
+        @keyframes vanish {
+            0% {
+                opacity: 1;
+                z-index: 1001;
+            }
+            99% {
+                opacity: 1;
+                z-index: 1001;
+            }
+            100% {
+                opacity: 0;
+                z-index: -111;
+            }
+        }
+    </style> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/underside.css">
+    <link rel="stylesheet" href="./css/log.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/header.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <!-- <video class="vanish"
+        src="../进入前视频/video/wzbt/1022_9e7140f5d96140b5903741e0ac4e5ecd.f0.mp4"
+        autoplay
+        muted
+></video> -->
+    <div class="header">
+        <div class="left">
+            <img src="./img/home/yingyue.png" alt="" class="yingyue">
+            <a href="index.html"><img src="./img/home/log_top.png" alt="" id="log"></a>
+        </div>
+        <div class="center">
+            <ul>
+                <li><a href="home.html" class="header_hover">首&nbsp页</a></li>
+                <li><a href="news.html">新&nbsp闻</a></li>
+                <li><a href="persona.html">角&nbsp色</a></li>
+                <li><a href="#">世&nbsp界</a></li>
+                <li><a href="#">漫&nbsp画</a></li>
+                <li><a href="#">社&nbsp区</a></li>
+            </ul>
+            <div class="box"></div>
+        </div>
+        <div class="right">
+            <button class="love">
+                <span>成长关爱系统</span>
+                <img src="./img/home/aixin.png">
+            </button>
+            <button class="login">
+                <span>登&nbsp录</span>
+                <img src="./img/home/user.png">
+            </button>
+        </div>
+    </div>
+
+    
+    <!-- 登录 -->
+    <div id="logina" style="display: none;"></div>
+
+    <!-- 背景 -->
+    <div class="bj">
+		<div class="poster__concept">
+			<video loop="loop" muted="muted"  autoplay>
+				<source src="./img/home/视频.mp4" type="audio/mp4">
+			</video>
+		</div>
+		 <div class="poster__badge">
+			<img src="./img/home/12禁.png">
+		</div>
+		 <div class="bofang">
+			<div class="poster_video">
+            </div>
+		</div>
+		<div class="ys-download-pc">
+			<div class="ys-download-pc__qr">
+					<img src="./img/home/二维码.png" class="ys-download-pc__qr">
+					<img src="./img/home/二维码中间.jfif" class="ys-download-pc__qr__icon">
+			</div>
+			<div class="ys-download-pc__group">
+				<a href=""><img src="./img/home/1.png"></a>
+				<a href=""><img src="./img/home/3.png"></a>
+			</div>
+			<div class="ys-download__group">
+				<a href=""><img src="./img/home/2.png"></a>
+				<a href=""><img src="./img/home/4.png"></a>
+			</div>
+			<div class="ys-download-pc__btn">
+				<a href=""><img src="./img/home/5.png" ></a>
+			</div>
+		</div>
+	</div>
+
+    <!-- 新闻资讯 -->
+    <div class="new">
+        <div class="news__main">
+			<img src="./img/home/第二块.jpg">
+			<h3>新闻资讯</h3>
+		</div>
+        <div class="new_Boom">
+            <div class="left">
+                <ul class="tu">
+                    <li><a href="#"><img src="./img/home/轮播图1.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/home/轮播图2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="./img/home/轮播图3.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="./img/home/轮播图4.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/home/轮播图1.png" alt=""></a></li>
+                </ul>
+                <ul class="val">
+                    <li class="val1"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="news_ul">
+                    <li class="currenters">最新</li>
+                    <li>新闻</li>
+                    <li>公告</li>
+                    <li>活动</li>
+                </ul>
+                <div class="tab_con">
+                    <!-- 最新 -->
+                    <div class="item" style="display: block;">
+                    <ul>
+                        <li>
+                            <a>
+                                <p class="item_p">《原神》「极鲜！炙脍之夜」网页活动现已开启</p>
+                                <p class="item_p2">2021/11/01</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <p class="item_p">《原神》EP - 幽蝶留芳之处</p>
+                                <p class="item_p2">2021/11/01</p>
+                            </a>
+                        </li>
+                            <li>
+                            <a>
+                                <p class="item_p">《原神》「雾海悬谜境」2.2版本活动速递第二期</p>
+                                <p class="item_p2">2021/10/31</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <p class="item_p">《原神》「神铸赋形」活动祈愿即将开启</p>
+                                <p class="item_p2">2021/11/31</p>
+                            </a>
+                            </li>
+                        <li>
+                            <a>
+                                <p class="item_p">《原神》「赤团开时」活动祈愿即将开启</p>
+                                <p class="item_p2">2021/11/31</p>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                    <!-- 新闻 -->
+                    <div class="item" style="display:none;">
+                        <ul>
+                        <li>
+                            <a>
+                                <p class="item_p">《原神》EP - 幽蝶留芳之处</p>
+                                <p class="item_p2">2021/11/01</p>
+                            </a>
+                        </li>
+                            <li>
+                            <a>
+                                <p class="item_p">《原神》EP - 幽蝶留芳之处</p>
+                                <p class="item_p2">2021/11/01</p>
+                            </a>
+                        </li>
+                            <li>
+                            <a>
+                                <p class="item_p">《原神》「雾海悬谜境」2.2版本活动速递第二期</p>
+                                <p class="item_p2">2021/10/31</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <p class="item_p">《原神》「神铸赋形」活动祈愿即将开启</p>
+                                <p class="item_p2">2021/11/31</p>
+                            </a>
+                            </li>
+                        <li>
+                            <a>
+                                <p class="item_p">《原神》「赤团开时」活动祈愿即将开启</p>
+                                <p class="item_p2">2021/11/31</p>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                    <!-- 公告 -->
+                    <div class="item" style="display: none;">
+                        <ul>
+                            <li>
+                                <a>
+                                    <p class="item_p">「岩港奇珍行记」网页活动说明</p>
+                                    <p class="item_p2">2021/11/02</p>
+                                </a>
+                            </li>
+                                <li>
+                                <a>
+                                    <p class="item_p">《原神》月夕祝颂-万份空月祝福相赠</p>
+                                    <p class="item_p2">2021/10/01</p>
+                                </a>
+                            </li>
+                                <li>
+                                <a>
+                                    <p class="item_p">“在尘世的相逢”抖音《原神》公测主播招募</p>
+                                    <p class="item_p2">2021/9/28</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <p class="item_p">“在尘世的相逢”快手直播《原神》主播招募活动开启</p>
+                                    <p class="item_p2">2021/9/16</p>
+                                </a>
+                                </li>
+                            <li>
+                                <a>
+                                    <p class="item_p">“在尘世的相逢”斗鱼直播《原神》主播招募活动开启</p>
+                                    <p class="item_p2">2021/9/16</p>
+                                </a>
+                            </li>
+                        </ul>
+					</div>
+                    <!-- 活动 -->
+                    <div class="item" style="display: none;">
+						<ul>
+						<li>
+							<a>
+								<p class="item_p">《原神》EP - 幽蝶留芳之处</p>
+								<p class="item_p2">2021/11/01</p>
+							</a>
+						</li>
+							<li>
+							<a>
+								<p class="item_p">《原神》EP - 幽蝶留芳之处</p>
+								<p class="item_p2">2021/11/01</p>
+							</a>
+						</li>
+							<li>
+							<a>
+								<p class="item_p">《原神》「雾海悬谜境」2.2版本活动速递第二期</p>
+								<p class="item_p2">2021/10/31</p>
+							</a>
+						</li>
+						<li>
+							<a>
+								<p class="item_p">《原神》「神铸赋形」活动祈愿即将开启</p>
+								<p class="item_p2">2021/11/31</p>
+							</a>
+							</li>
+						<li>
+							<a>
+								<p class="item_p">《原神》「赤团开时」活动祈愿即将开启</p>
+								<p class="item_p2">2021/11/31</p>
+							</a>
+						</li>
+                        </ul>
+					</div>
+                </div>
+                <div class="all">
+                        <a href="./news.html">
+                            <img src="./img/home/加号.png" alt="">
+                            <p class="p2">查看全部资讯</p>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 地名介绍 -->
+        <div class="city clearfix">
+            <ul>
+                <li>
+                    <h1>蒙德城</h1>
+                    <img src="./img/home/p1.jpg" class="img1">
+                    <img src="./img/home/bottom.png" class="img3">
+                    <img src="./img/home/p_1.png" alt="" class="img2">
+                    <div class="pp"></div>
+                    <div class="bk"></div>
+                </li>
+                <li>
+                    <h1>璃月港</h1>
+                    <img src="./img/home/p2.jpg" class="img1">
+                    <img src="./img/home/bottom.png" class="img3">
+                    <img src="./img/home/p_2.png" alt="" class="img2">
+                    <div class="pp"></div>
+                    <div class="bk"></div>
+                </li>
+                <li>
+                    <h1>稻妻城</h1>
+                    <img src="./img/home/p3.jpg" class="img1">
+                    <img src="./img/home/bottom.png" class="img3">
+                    <img src="./img/home/p_3.png" alt="" class="img2">
+                    <div class="pp"></div>
+                    <div class="bk"></div>
+                </li>
+            </ul>
+            <div class="qidai">
+                <h1>敬请期待</h1>
+                <img src="./img/home/p4.jpg" class="img1">
+            </div>
+            
+        </div>
+<!-- 关注我们 -->
+        <div class="float_window">
+            <p class="p1">关注我们</p>
+            <img src="./img/home/微信名片.jpg">
+            <p class="p2">扫码关注微信</p>
+            <ul>
+                <li><a href="#" class="a1">官方微博</a></li>
+                <li><a href="#">TapTap</a></li>
+                <li><a href="#">官方社区</a></li>
+            </ul>
+            <div class="btn">
+                <img src="./img/home/右箭头.png" alt=""></button>
+            </div>
+        </div>
+<!-- 底部 -->
+    <script>
+        $("#logina").load("log.html");
+     </script>
+    <div id="page1"></div>
+    <script>
+        $("#page1").load("./underside.html");
+    </script>
+    
+
+    <script src="./js/log.js"></script>
+    
+    <script src="./js/home.js"></script>
+    
+</body>
+</html>

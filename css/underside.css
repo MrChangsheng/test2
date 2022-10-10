@@ -1,0 +1,123 @@
+.banner_bottom{
+    position: relative;
+    z-index: 998;
+    width: 100%;
+    min-width: 1280px;
+    min-height: 360px;
+    padding-bottom: 35px;
+    background-color: #111;
+    margin: 0 auto;
+}
+.banner_bottom .di_top{
+    display: flex;
+    z-index: 2;
+    list-style-type: none;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: #1a1a1a solid 2px;
+}
+.banner_bottom .di_top li{
+    position: relative;
+    float: left;
+    width: 36px;
+    height: 32px;
+    margin-right: 34px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.banner_bottom .di_top img{
+    height: 100%;
+}
+.banner_bottom .di_top .img2{
+    display: none;
+}
+.di_bottom{
+    width: 100%;
+    height: 281px;
+    padding: 30px 0;
+    background: #000;
+    color: #999;
+    font-size: 14px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+.di_bottom .center{
+    display: flex;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+.di_bottom .left{
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 100%;
+    align-items: center;
+}
+.di_bottom .left div img{
+    width: 100%;
+}
+.di_bottom .left .zuo{
+    margin-right: 20px;
+}
+.di_bottom .left .cen{
+    width: 1px;
+    height: 28px;
+    border-left: 1px solid #666;
+}
+.di_bottom .left .you{
+    margin-left:20px;
+}
+.di_bottom .right{
+    height:100%;
+    margin-left: 80px;
+}
+.di_bottom .right ul{
+    display: flex;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 20px;
+}
+.di_bottom .right ul li{
+    height:18px;
+    line-height: 18px;
+    font-size: 18px;
+    padding: 0 10px;
+    color:white;
+    border-right: 2px solid rgb(255, 255, 255);
+}
+.di_bottom .right ul li:first-child{
+    padding-left:0px;
+}
+.di_bottom .right ul li:last-child{
+    padding-right:0px;
+    border-right: 0px;
+}
+.di_bottom .right a{
+    display: inline-block;
+    padding-right: 8px;
+    /* border-right: 1px solid white; */
+    line-height: 19px;
+    color: #999;
+}
+.di_bottom .right .a{
+    line-height: 19px;
+}
+.di_bottom .right span{
+    display: inline-block;
+    padding-left: 8px;
+    line-height: 19px;
+}
+.di_bottom .right p{
+    line-height: 19px;
+}
+.di_bottom .right .last{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 800px;
+}

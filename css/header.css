@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .header {
+    width: 1519px;
+    height:70px;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(17, 17, 17, 0.75);
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 35%);
+    transition: height 0.8s ease-out;
+  }
+  .header .left{
+      float: left;
+      width: 300px;
+      height: 70px;
+      /* width: 20%;
+      height:100%; */
+      overflow: hidden;
+  }
+  .header .left .yingyue{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    float: left;
+    width: 34px;
+    height: 34px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  .header .left #log{
+    position: relative;
+    left:0px;
+    top: 0px;
+
+    height:70px;
+  }
+  .header .center{
+      float: left;
+  }
+  .header .center li{
+    float: left;
+    width: 45px;
+    height: 70px;
+    margin: 0 35px;
+    line-height: 70px;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .header .center li a{
+    display: block;
+    color: #ccc;
+  }
+  .header .center a:hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 40px #69e0ff, 0 0 40px #69e0ff;
+    color: #fff;
+  }
+  .header_hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 40px #69e0ff, 0 0 40px #69e0ff;
+    color: rgb(255, 255, 255);
+  }
+  .header .center .box{
+    position: absolute;
+    top:0px;
+    left:335px;
+    width: 45px;
+    height: 5px;
+    background-color: aqua;
+  }
+  .header .right{
+    /* width: 350px; */
+    height: 70px;
+    float: right;
+}
+.header .right .login,.header .right .love{
+    width: 103.77px;
+    height: 70px;
+    width: 160px;
+    float: left;
+    align-items: center;
+    border: 0;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    color: #ccc;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .header .right .love{
+      width: 170px;
+  }
+  .header .right span{
+        display: inline-block;
+        height: 70px;
+        font-size: 19px;
+        font-weight: normal; 
+        font-stretch: normal;
+        line-height: 70px;
+  }
+  .header .right img{
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  .header .right button:hover{
+    color: white;
+    opacity: 1;
+  }

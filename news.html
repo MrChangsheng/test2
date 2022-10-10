@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/log.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/news.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="page1"></div> -->
+    <div class="header">
+        <div class="left">
+            <img src="./img/home/yingyue.png" alt="" class="yingyue">
+            <a href="index.html"><img src="./img/home/log_top.png" alt="" id="log"></a>
+        </div>
+        <div class="center">
+            <ul>
+                <li><a href="./home.html">首&nbsp页</a></li>
+                <li><a href="./news.html" class="header_hover">新&nbsp闻</a></li>
+                <li><a href="./persona.html">角&nbsp色</a></li>
+                <li><a href="#">世&nbsp界</a></li>
+                <li><a href="#">漫&nbsp画</a></li>
+                <li><a href="#">社&nbsp区</a></li>
+            </ul>
+            <div class="box"></div>
+        </div>
+        <div class="right">
+            <button class="love">
+                <span>成长关爱系统</span>
+                <img src="./img/home/aixin.png">
+            </button>
+            <button class="login">
+                <span>登&nbsp录</span>
+                <img src="./img/home/user.png">
+            </button>
+        </div>
+    </div>
+    <!-- 登录 -->
+    <div id="logina" style="display: none;"></div>
+    <script>
+        $("#logina").load("./log.html");
+     </script>
+     <!-- 中间部分 -->
+    <div class="host">
+        <div class="bj">
+            <img src="./img/news/背景图.jpg" alt="">
+        </div>
+        <div class="center">
+            <ul class="recommend">
+                <li class="item" title="《原神》微博超话2.2版本第二期签到活动现已上线">
+                    <a class="title ellipsis">
+                        <div class="imgwrap">
+                            <img src="./img/news/刻晴.png">
+                        </div>
+                        <div class="recommend__title">刻晴生日快乐｜这是…送给我的金丝虾球？</div>
+                        <div class="recommend__meta">
+                            <span class="recommend__date">2022/6/1</span>
+                            <span class="recommend__category news__cate-2">新闻</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="item" title="《原神》微博超话2.2版本第二期签到活动现已上线">
+                    <a class="title ellipsis">
+                        <div class="imgwrap">
+                            <img src="./img/news/蒙德茶会.jpg">
+                        </div>
+                        <div class="recommend__title">《原神》小剧场——「蒙德茶会」第四期</div>
+                        <div class="recommend__meta">
+                            <span class="recommend__date">2022/6/1</span>
+                            <span class="recommend__category news__cate-2">新闻</span>
+                        </div>
+                    </a>
+                    
+                </li>
+                <li class="item" title="《原神》微博超话2.2版本第二期签到活动现已上线">
+                    <a class="title ellipsis">
+                        <div class="imgwrap">
+                            <img src="./img/news/派梦的十万个为什么.jpg">
+                        </div>
+                        <div class="recommend__title">「派蒙的十万个为什么」答题活动正式开启</div>
+                        <div class="recommend__meta">
+                            <span class="recommend__date">2022/6/1</span>
+                            <span class="recommend__category news__cate-2">新闻</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="category">
+        <a class="item first_child">最新</a>
+        <a class="item">新闻</a>
+        <a class="item">公告</a>
+        <a class="item">活动</a>
+    </div>
+    
+    <div class="news">
+        <!-- 最新 -->
+        <ul class="some-list">
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="刻晴生日快乐｜这是…送给我的金丝虾球？">刻晴生日快乐｜这是…送给我的金丝虾球？</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》小剧场——「蒙德茶会」第四期">《原神》小剧场——「蒙德茶会」第四期</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="「派蒙的十万个为什么」答题活动正式开启">「派蒙的十万个为什么」答题活动正式开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》预下载即将开启">《原神》预下载即将开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item">
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/月夕祝颂.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+        </ul>
+        <!-- 新闻 -->
+        <ul class="some-list" style="display: none;">
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="刻晴生日快乐｜这是…送给我的金丝虾球？">刻晴生日快乐｜这是…送给我的金丝虾球？</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》小剧场——「蒙德茶会」第四期">《原神》小剧场——「蒙德茶会」第四期</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="「派蒙的十万个为什么」答题活动正式开启">「派蒙的十万个为什么」答题活动正式开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》预下载即将开启">《原神》预下载即将开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="刻晴生日快乐｜这是…送给我的金丝虾球？">刻晴生日快乐｜这是…送给我的金丝虾球？</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》小剧场——「蒙德茶会」第四期">《原神》小剧场——「蒙德茶会」第四期</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="「派蒙的十万个为什么」答题活动正式开启">「派蒙的十万个为什么」答题活动正式开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》预下载即将开启">《原神》预下载即将开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/古时孤影.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>新闻</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+        </ul>
+        <!-- 公告 -->
+        <ul class="some-list" style="display: none;">
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="刻晴生日快乐｜这是…送给我的金丝虾球？">刻晴生日快乐｜这是…送给我的金丝虾球？</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》小剧场——「蒙德茶会」第四期">《原神》小剧场——「蒙德茶会」第四期</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="「派蒙的十万个为什么」答题活动正式开启">「派蒙的十万个为什么」答题活动正式开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》预下载即将开启">《原神》预下载即将开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="刻晴生日快乐｜这是…送给我的金丝虾球？">刻晴生日快乐｜这是…送给我的金丝虾球？</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》小剧场——「蒙德茶会」第四期">《原神》小剧场——「蒙德茶会」第四期</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="「派蒙的十万个为什么」答题活动正式开启">「派蒙的十万个为什么」答题活动正式开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》预下载即将开启">《原神》预下载即将开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/蒙德茶会.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>公告</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+        </ul>
+        <!-- 活动 -->
+        <ul class="some-list" style="display: none;">
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="刻晴生日快乐｜这是…送给我的金丝虾球？">刻晴生日快乐｜这是…送给我的金丝虾球？</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》小剧场——「蒙德茶会」第四期">《原神》小剧场——「蒙德茶会」第四期</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="「派蒙的十万个为什么」答题活动正式开启">「派蒙的十万个为什么」答题活动正式开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》预下载即将开启">《原神》预下载即将开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="刻晴生日快乐｜这是…送给我的金丝虾球？">刻晴生日快乐｜这是…送给我的金丝虾球？</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》小剧场——「蒙德茶会」第四期">《原神》小剧场——「蒙德茶会」第四期</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="「派蒙的十万个为什么」答题活动正式开启">「派蒙的十万个为什么」答题活动正式开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》预下载即将开启">《原神》预下载即将开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+            <li class="item" >
+                <a class="news_title">
+                    <img src="./img/news/派梦的十万个为什么.jpg">
+                    <div class="news_info">
+                        <h3 class="ellipsis" title="《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启">《原神》「浪沫的旋舞」优菈角色主题同人征集活动今日开启</h3>
+                        <!-- <p class="news_summary"></p> -->
+                    </div>
+                </a>
+                <div class="news_date">
+                    <div>2022/06/04</div>
+                    <a>活动</a>
+                </div>
+                <div class="bor"></div>
+            </li>
+        </ul>
+    </div>
+    <!-- 返回顶部 -->
+    <button class="button_top"></button>
+    
+    <div id="page1"></div>
+    <script>
+        $("#page1").load("underside.html");
+    </script>
+    <script src="./js/header.js"></script>
+    <script src="./js/log.js"></script>
+    <script src="./js/jquery.simpleLoadMore.js"></script>
+    
+</body>
+</html>
